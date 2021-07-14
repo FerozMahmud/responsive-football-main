@@ -1,0 +1,234 @@
+/* Google Font Link Start */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+/* Google Font Link End */
+
+/* Common CSS Part Start */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.full-width{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 1000px;
+}
+/* Common CSS Part End */
+
+/* Banner CSS Part Start */
+.banner {
+    width: 100%;
+    height: 600px;
+    background: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-container {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px ;
+}
+.banner-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+.banner-text a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #E02C6D;
+    padding: 10px 24px;
+    transition: background 0.6s;
+}
+.banner-text a:hover {
+    background: cornflowerblue;
+}
+.banner-text a i {
+    padding-left: 10px;
+}
+.banner-image img {
+    width: 100%;
+    height: 100%;
+}
+/* Banner CSS Part End */
+
+/* Players CSS Part Start */
+.players{
+    margin: 50px 0 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px 30px;
+}
+.player {
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 20px grey;
+}
+.player-image img {
+    border-radius: 10px;
+    width: 100%;
+}
+.player-details h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+}
+.player-details p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+/* Players CSS Part End */
+
+/* Live Football CSS Part */
+.live-container h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+}
+/* Live Football CSS Part */
+
+/* News CSS Part Start */
+.news-margins {
+    margin: 100px 0;
+}
+.news-container {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px ;
+}
+.news-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+    margin: 0;
+}
+.news-text h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    color: #0A0826;
+    margin: 0;
+}
+
+.news-text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.news-text a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #E02C6D;
+    padding: 10px 24px;
+    transition: background 0.6s;
+}
+.news-text a:hover {
+    background: cornflowerblue;
+}
+.news-text a i {
+    padding-left: 10px;
+}
+/* News CSS Part End */
+
+/* Footer CSS Part Start */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-image img {
+    width: 400px;
+    margin: 40px 0;
+}
+.footer-icon i {
+    font-size: 17px;
+    border-radius: 17px;
+    padding: 7px;
+    color: gray;
+    background: lightgray;
+    margin-left: 10px;
+}
+.footer-text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin: 30px 0 50px;
+}
+/* Footer CSS Part End */
+
+/* Media Queries Start */
+
+
+    /* Mobile Device */
+
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .banner-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .players {
+        grid-template-columns: 1fr;
+    }
+    .player {
+        flex-direction: column;
+    }
+    .highlights-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+    /* Tablet Device */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    .banner-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player {
+        flex-direction: column;
+    }
+    .highlights-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* Media Queries End */
