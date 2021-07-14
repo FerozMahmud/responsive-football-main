@@ -19,6 +19,48 @@ body {
 }
 /* Common CSS Part End */
 
+/* Navbar CSS Part start */
+nav{
+background-color: darkblue;
+}
+
+.nav-bar{
+   width: 1160px;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 40px;
+   padding-left: 160px;
+}
+
+.nav-bar-text{
+    font-family: 'Poppins', sans-serif;
+}
+
+.manu-items{
+   color: white;
+}
+
+.nav-bar .manu-items a{
+   color: white;
+   text-decoration: none;
+   padding-right: 36px;
+}
+.nav-bar .sign-in a{
+   color: white;
+   text-decoration: none;
+
+}
+.login{
+   background-color: #E02C6D;
+   width: 123px;
+   height: 44px;
+   padding: 10px 30px;
+}
+.fa-sign-in-alt{
+   margin-right: 6px;
+}
+/* Navbar CSS Part End */
+
 /* Banner CSS Part Start */
 .banner {
     width: 100%;
@@ -59,8 +101,9 @@ body {
     padding-left: 10px;
 }
 .banner-image img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
+    margin: auto;
 }
 /* Banner CSS Part End */
 
@@ -157,6 +200,10 @@ body {
 }
 .news-text a i {
     padding-left: 10px;
+}
+.news-image img {
+    width: 100%;
+    height: 100%;
 }
 /* News CSS Part End */
 
