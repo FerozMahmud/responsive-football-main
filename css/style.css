@@ -208,6 +208,35 @@ background-color: darkblue;
 }
 /* News CSS Part End */
 
+/* Point table CSS Part Start */
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 2px solid gray;
+    padding: 0 10px;
+}
+.table-container h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+    margin: 0;
+}
+.table-container table{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.table-style{
+    margin-bottom: 15px;
+}
+/* Point table CSS Part End */
+
 /* Footer CSS Part Start */
 .footer {
     display: flex;
