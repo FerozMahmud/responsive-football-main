@@ -141,11 +141,11 @@ background-color: darkblue;
 /* Players CSS Part End */
 
 /* Live Football CSS Part */
+
 .live-container h1{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 48px;
-    line-height: 60px;
     color: #0A0826;
 }
 /* Live Football CSS Part */
@@ -262,6 +262,7 @@ background-color: darkblue;
     }
     .news-container {
         grid-template-columns: repeat(1, 1fr);
+        padding: 0 10px;
     }
 }
 
@@ -282,6 +283,7 @@ background-color: darkblue;
     }
     .news-container {
         grid-template-columns: repeat(1, 1fr);
+        padding: 0 20px;
     }
 }
 /* Media Queries End */
